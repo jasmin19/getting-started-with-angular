@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html> 
+<html ng-app="starter"> 
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,10 +18,15 @@
 
   </head>
   <body ng-controller="AppController">
+
     <div class="container">
       <div class="starter-template">
         <h1>Starter Project</h1>
         <p class="lead">Getting Started with AngularJS</p>
+
+        <input ng-model="test">
+        <code>test = {{test}}</code>
+
       </div>
     </div>
   </body> 
