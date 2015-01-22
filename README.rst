@@ -1,4 +1,5 @@
-# getting-started-with-angular
+getting-started-with-angular
+============================
 
 A starter project to get bootstrapped with angular.js, coffeescript and grunt
 
