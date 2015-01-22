@@ -4,3 +4,4 @@ www/css
 www/index.html
 node_modules
 .sass-cache
+www/templates
