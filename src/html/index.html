@@ -24,6 +24,14 @@
         <h1>Starter Project</h1>
         <p class="lead">Getting Started with AngularJS</p>
 
+        <p>
+          <code ng-non-bindable>{{1+1 | currency:"€"}} -></code>
+          <code> {{1+1 | currency:"€"}}</code>
+          <br/>
+          <code ng-non-bindable>{{"Hallo" + "Welt" | uppercase}} -></code>
+          <code> {{"Hallo" + "Welt" | uppercase}}</code>
+        </p>
+
         <hello-from-angular></hello-from-angular>
 
       </div>

@@ -77,7 +77,7 @@ module.exports = (grunt) ->
     grunt.loadNpmTasks 'grunt-contrib-connect'
 
     # tasks
-    grunt.registerTask 'default', ["connect", "watch"]
+    grunt.registerTask 'default', ["connect", "coffee", "copy", "sass", "watch"]
 
 # vim: set ft=coffee ts=4 sw=4 expandtab :
 
