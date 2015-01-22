@@ -32,7 +32,7 @@ place in the `www` folder.
 
 A local livereload webserver is also started at `http://localhost:8000`.
 
-Open a browser and navigate to this adress.
+Open a browser and navigate to this address.
 
 
 .. vim: set ft=rst ts=4 sw=4 expandtab tw=78 :
